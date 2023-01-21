@@ -1,0 +1,35 @@
+.head{
+    font-style: italic;
+    font-size: large;
+    background-color: rgb(25, 65, 105);
+    color: aliceblue;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+.card {
+    background-color: bisque;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .cards{
+    gap: 55px 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  .card .profile-image img{
+    border-radius: 50%;
+  }
+  .card .card-content{
+    text-align: center;
+  }
+  .card .card-content h3{
+    font-size: large;
+  }
+  .card .card-content h2{
+    font-size: medium;
+  }
